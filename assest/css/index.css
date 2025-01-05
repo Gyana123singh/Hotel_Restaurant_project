@@ -1,0 +1,1329 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  /* overflow-x: visible; */
+}
+.bg-top-nav {
+  background-color: #474747;
+  color: white;
+}
+.social-icon {
+  background-color: #f9f9f71f;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.bg-container p,
+i {
+  font-size: 0.8vw;
+  color: white;
+}
+
+.nav-icon-name p {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  color: #474747;
+  font-weight: 600;
+  font-size: 42.67px;
+}
+.list-item li {
+  font-size: 1.1vw;
+  font-weight: 500;
+  color: #182226;
+  list-style-type: none;
+}
+.list-item .home {
+  border-radius: 34px;
+  width: 75px;
+  text-align: center;
+}
+.list-item a {
+  text-decoration: none;
+}
+.top-navbar {
+  background-color: white;
+  width: 100%;
+  position: sticky;
+  z-index: 1;
+  top: -1px;
+}
+.top-navbar .mob-part {
+  padding-top: 1%;
+}
+.nav-btn button {
+  width: 147px;
+  height: 48px;
+  border: 2px solid #2c2f24;
+  border-radius: 118px;
+  font-weight: 700;
+  color: #182226;
+  background: transparent;
+}
+.hero-section {
+  background-image: url(../image/index/image\ 110.png);
+  background-position: center;
+  background-size: cover;
+  height: 79.2vh;
+}
+.hero-section h1 {
+  color: #2c2f24;
+  font-family: "Playfair Display", serif;
+  font-size: 5.5vw;
+}
+.hero-section p {
+  color: #2c2f24;
+  font-size: 1.2vw;
+}
+.hero-section .btn-left {
+  width: 135px;
+  height: 55px;
+  background: #ad343e;
+  border: 2px solid #ad343e;
+  font-weight: 500;
+  border-radius: 30px;
+  color: white;
+}
+.hero-section .btn-right {
+  width: 135px;
+  height: 55px;
+  background: #ad343e00;
+  border: 2px solid #182226;
+  font-weight: 500;
+  border-radius: 30px;
+  color: #182226;
+}
+.hero-section .btn-left:hover {
+  background: #ad343e00;
+  border: 2px solid #182226;
+  border-radius: 30px;
+  color: #182226;
+}
+.hero-section .btn-right:hover {
+  background: #ad343e;
+  border: 2px solid #ad343e;
+  border-radius: 30px;
+  color: white;
+}
+
+.rectangle1 {
+  width: 100%;
+  background-color: white;
+}
+.rectangle1 h2 {
+  font-size: 3.2vw;
+}
+.rectangle1 h3 {
+  font-size: 1.5vw;
+}
+
+.rectangle1 .card-part p {
+  padding-left: 8%;
+  padding-right: 8%;
+  font-size: 1.1vw;
+}
+.rectangle1 .card-part h6 {
+  font-size: 1.1vw;
+}
+.card-part {
+  text-align: center;
+}
+.card-part h6 {
+  font-size: 1vw;
+  padding: 5px;
+  color: #ad343e;
+}
+.card-icon {
+  background: #7f82763b;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+.rectangle-2 {
+  background: #f9f9f7;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.rectangle-2 .rectangle-2-part-img {
+  background-image: url("../image/index/Image.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+  width: 90%;
+  height: 70vh;
+  position: relative;
+}
+.rectangle-2 .rectangle-2-part-img1 {
+  background-image: url("../image/about/Image\ \(2\).png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+  width: 90%;
+  height: 70vh;
+  position: relative;
+}
+
+.rectangle-2 .rectangle-2-part-img .rectangle-2-about-part {
+  width: 350px;
+  height: 260px;
+  background: #474747;
+  border-radius: 15px;
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+  color: white;
+  text-align: justify;
+  padding: 5% 5% 5% 5%;
+}
+.rectangle-2 .rectangle-2-about-part h2 {
+  font-size: 1.5vw;
+}
+.rectangle-2 .rectangle-2-about-part p {
+  font-size: 1vw;
+  margin-left: 5%;
+  padding-top: 5%;
+}
+.rectangle-2 .rectangle-2-about-part i {
+  padding-top: 6%;
+}
+.rectangle-2-lasst-i {
+  padding-bottom: 5.5%;
+}
+
+.rectangle-2-right-side {
+  padding-top: 10%;
+}
+.rectangle-2-right-side h1 {
+  font-size: 3.5vw;
+  font-family: "Playfair Display", serif;
+}
+.rectangle-2-right-side p {
+  font-size: 1.2vw;
+}
+.rectangle-2 .rectangle-2-btn button {
+  width: 180px;
+  height: 64px;
+  border-radius: 118px;
+  font-weight: 600;
+  margin-top: 5%;
+  background-color: transparent;
+  border: 1.5px solid #2c2f24;
+}
+.rectangle-3 img {
+  width: 100%;
+}
+.rectangle-3 h1 {
+  font-size: 3.5vw;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 4%;
+}
+.rectangle-3 h3 {
+  font-size: 1.5vw;
+  font-weight: 500;
+  padding-top: 10%;
+}
+.rectangle-3 p {
+  font-size: 1.1vw;
+  padding-top: 2%;
+}
+.rectangle-4 {
+  width: 100%;
+  background: #f9f9f7;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.rectangle-4-food-delivery {
+  margin-left: 10%;
+}
+.rectangle-4 .rectangle-4-food-delivery-icon {
+  padding-top: 4%;
+}
+.rectangle-4 .rectangle-4-food-delivery-icon img {
+  width: 28px;
+  height: 25px;
+}
+.rectangle-4 h1 {
+  margin-top: 28%;
+  margin-bottom: 5%;
+  font-size: 3.5vw;
+  font-family: "Playfair Display", serif;
+}
+.rectangle-4 .rectangle-4-food-delivery-icon p {
+  margin-left: 2%;
+}
+
+/* .rectangle-5 start */
+.rectangle-5 {
+  position: relative;
+}
+.rectangle-5 h1 {
+  padding-bottom: 4%;
+  font-size: 3.5vw;
+  font-family: "Playfair Display", serif;
+}
+.rectangle-5-cards {
+  border: none;
+}
+.rectangle-5-cards-inside {
+  background-color: #f9f9f7;
+  padding: 11%;
+}
+.rectangle-5-cards strong {
+  color: #ad343e;
+  font-size: 24px;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.rectangle-5-cards p {
+  font-size: 1vw;
+  margin-top: 7%;
+}
+.rectangle-5 .rectangle-5-icon1 {
+  position: absolute;
+  left: 4%;
+  top: 51%;
+  font-size: 60px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.09);
+}
+.rectangle-5-icon1:hover {
+  color: rgba(196, 159, 218, 0.095);
+}
+.rectangle-5 .rectangle-5-icon2 {
+  position: absolute;
+  right: 2%;
+  top: 51%;
+  font-size: 60px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.09);
+}
+.rectangle-5-icon2:hover {
+  color: rgba(196, 159, 218, 0.095);
+}
+/* .rectangle-5 ends */
+
+/* .rectangle-6 start */
+.rectangle-6 {
+  background-color: #f9f9f7;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+.rectangle-6 h1 {
+  font-size: 3.5vw;
+  font-family: "Playfair Display", serif;
+}
+.rectangle-6 .our-blog {
+  font-size: 8vw;
+}
+.rectangle-6 button {
+  background-color: #ad343e;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 17px 25px 17px 25px;
+  margin-bottom: 0;
+  transition: 0.6s;
+}
+.rectangle-6 button:hover {
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+
+.rectangle-6 .card {
+  border: none;
+  border-radius: 13px;
+}
+.rectangle-6 .blog-article .blog-article-part {
+  margin-top: 5%;
+  padding: 0% 4% 2% 4%;
+}
+.rectangle-6 .blog-article .blog-article-part .para {
+  color: #737865;
+  font-size: 1vw;
+}
+.rectangle-6 .blog-article .blog-article-part p {
+  font-size: 1vw;
+  padding-top: 1%;
+}
+.rectangle-6 .RHS-card-part .card {
+}
+.rectangle-6 .RHS-card-part p {
+  color: #737865;
+  font-size: 1vw;
+  margin-top: 7%;
+  padding-left: 4%;
+}
+.rectangle-6 .RHS-card-part h5 {
+  margin-left: 4%;
+  padding-bottom: 7%;
+}
+
+@media screen and (max-width: 1280px) {
+  .rectangle-6 .RHS-card-part .card {
+  }
+  .rectangle-6 .blog-article .blog-article-part h5 {
+    font-size: 1.4vw;
+    padding-top: 1%;
+  }
+  .rectangle-6 .RHS-card-part h5 {
+    font-size: 1.4vw;
+    padding-right: 2%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .rectangle-6 .RHS-card-part .card {
+  }
+}
+@media screen and (max-width: 600px) {
+  .rectangle-6 .blog-article .blog-article-part .para {
+    font-size: 3vw;
+  }
+  .rectangle-6 .blog-article .blog-article-part h5 {
+    font-size: 3.5vw;
+  }
+  .rectangle-6 .RHS-card-part p {
+    font-size: 3vw;
+    margin-top: 4%;
+    padding-bottom: 2%;
+  }
+
+  .rectangle-6 .RHS-card-part h5 {
+    font-size: 3.5vw;
+  }
+  .rectangle-6 .blog-article .blog-article-part p {
+    font-size: 3vw;
+    padding-top: 1%;
+  }
+}
+
+/* .rectangle-6 ends */
+
+/* start rectangle-7 */
+.rectangle-7 {
+  background-color: #474747;
+  padding-top: 8%;
+  padding-bottom: 10%;
+  color: white;
+}
+.rectangle-7 p {
+  color: #dbdfd0;
+}
+.rectangle-7 .logo-footer img {
+  margin-bottom: 5%;
+}
+.rectangle-7 .footer-middle-img {
+}
+@media screen and (max-width: 600px) {
+  .rectangle-7 .footer-middle-img {
+    margin-top: 2%;
+  }
+}
+/* ends rectangle-7 */
+
+/****************************************** Start media query of index part***************************************************************/
+
+@media screen and (max-width: 1280px) {
+  .bg-container p,
+  i {
+    font-size: 1.3vw;
+  }
+  .gap-5 {
+    gap: 1.5rem !important;
+  }
+  .pt-1 {
+    padding-top: 0.7rem !important;
+  }
+  .bg-top-nav {
+    padding: 0.6% 2% 0.6% 2%;
+  }
+  .hero-section h1 {
+    font-size: 6.5vw;
+  }
+
+  .hero-section p {
+    font-size: 1.5vw;
+  }
+  .rectangle-2 .rectangle-2-part-img {
+    height: 60vh;
+  }
+  .rectangle-2-lasst-i {
+    padding-bottom: 0%;
+    padding-top: 5%;
+  }
+  .rectangle-5 .rectangle-5-icon1 {
+    left: 2.5%;
+  }
+
+  .rectangle-5 .rectangle-5-icon2 {
+    right: 0%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .rectangle-2 .rectangle-2-part-img {
+    width: 95%;
+    /* height: 26vh; */
+  }
+  .rectangle-2 .rectangle-2-part-img .rectangle-2-about-part {
+    width: 222px;
+    height: 178px;
+  }
+
+  .rectangle-2 .rectangle-2-part-img .rectangle-2-about-part {
+    width: 222px;
+    height: 210px;
+    right: 50px;
+  }
+  .rectangle-2-lasst-i {
+    padding-bottom: 3%;
+    padding-top: 0%;
+  }
+  .rectangle-5 .rectangle-5-icon1 {
+    left: 2%;
+    display: none;
+  }
+
+  .rectangle-5 .rectangle-5-icon2 {
+    right: 0%;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .nav-icon-name p {
+    font-size: 32.67px;
+  }
+  .nav-btn button {
+    width: 116px;
+    height: 45px;
+  }
+  .gap-5 {
+    gap: 0.8rem !important;
+  }
+  .list-item .home {
+    width: 62px;
+  }
+  .list-item li {
+    font-size: 1.7vw;
+  }
+  .hero-section {
+    height: 33.2vh;
+  }
+  .hero-section p {
+    font-size: 1.7vw;
+  }
+  .rectangle1 h2 {
+    font-size: 4vw;
+  }
+  .rectangle1 h3 {
+    font-size: 3vw;
+  }
+  .rectangle1 .card-part p {
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 1.77vw;
+  }
+  .rectangle1 .card-part h6 {
+    font-size: 2vw;
+  }
+  .rectangle-2 .rectangle-2-part-img {
+    width: 100%;
+    height: 27vh;
+  }
+  .rectangle-2-right-side h1 {
+    font-size: 4vw;
+  }
+  .rectangle-2-right-side p {
+    font-size: 1.77vw;
+  }
+  .rectangle-2 .rectangle-2-about-part h2 {
+    font-size: 2vw;
+  }
+  .rectangle-2 .rectangle-2-about-part p {
+    font-size: 1.2vw;
+    margin-left: 5%;
+    padding-top: 5%;
+  }
+  .rectangle-2 .rectangle-2-part-img .rectangle-2-about-part {
+    width: 250px;
+    height: 190px;
+    right: 33px;
+  }
+  .rectangle-3 h1 {
+    font-size: 4vw;
+  }
+
+  .rectangle-3 h3 {
+    font-size: 3vw;
+  }
+
+  .rectangle-3 p {
+    font-size: 1.7vw;
+  }
+  .rectangle-4 h1 {
+    font-size: 3.8vw;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .hide-desk {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hide-mob {
+    display: none;
+  }
+  .rectangle-6 button {
+    margin-top: 5%;
+    padding: 4px 10px 4px 10px;
+    font-size: 3vw;
+  }
+  .bi-list::before {
+    content: "\f479";
+    font-size: 8vw;
+  }
+  .mobile-menu .dropdown-menu {
+    min-width: 22rem !important;
+  }
+  .mobile-menu ul li {
+    font-size: 3.5vw;
+    padding-left: 5%;
+    line-height: 2;
+  }
+
+  .nav-btn button {
+    display: none;
+  }
+  .nav-img img {
+    width: 38px;
+  }
+  .nav-icon-name p {
+    height: 30px;
+    font-size: 18px;
+  }
+  .nav-btn button {
+    width: 130px;
+    height: 30px;
+  }
+  .top-item i p {
+    font-size: 2.3vw;
+  }
+  .top-item p {
+    font-size: 2.3vw;
+  }
+  .top-navbar .mob-part {
+    padding-top: 3%;
+  }
+  .gap-5 {
+    gap: 1rem !important;
+  }
+  .pt-1 {
+    padding-top: 0.7rem !important;
+  }
+  .bg-top-nav {
+    padding: 0.6% 2% 0.6% 2%;
+  }
+  .social-icon i {
+    font-size: 12px;
+  }
+  .hero-section {
+    height: 38vh;
+  }
+  .hero-section .btn-left {
+    width: 106px;
+    height: 34px;
+    font-size: 3vw;
+  }
+  .hero-section .btn-right {
+    width: 106px;
+    height: 34px;
+    font-size: 3vw;
+  }
+  .hero-section h1 {
+    font-size: 7.5vw;
+  }
+  .hero-section p {
+    font-size: 3vw;
+  }
+  .card-icon {
+    margin-top: 5%;
+  }
+  .rectangle1 .card-part p {
+    font-size: 3vw;
+  }
+  .card-part h6 {
+    font-size: 3.5vw;
+  }
+  .rectangle1 h2 {
+    font-size: 8vw;
+  }
+  .rectangle1 h3 {
+    font-size: 5vw;
+    margin-top: 5%;
+  }
+  .rectangle1 .card-part h6 {
+    font-size: 4vw;
+  }
+  .rectangle-2 .rectangle-2-part-img {
+    height: 50vh;
+  }
+  .rectangle-2 .rectangle-2-part-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rectangle-2 .rectangle-2-part-img .rectangle-2-about-part {
+    width: 283px;
+    height: 158px;
+  }
+  .rectangle-2 .rectangle-2-part-img {
+    width: 100%;
+  }
+  .rectangle-2 .rectangle-2-about-part h2 {
+    font-size: 3.5vw;
+  }
+  .rectangle-2 .rectangle-2-about-part p {
+    font-size: 2.5vw;
+  }
+  .pt-4 {
+    padding-top: 0px !important;
+  }
+  .rectangle-2-right-side h1 {
+    font-size: 8vw;
+    margin-top: 8%;
+  }
+  .rectangle-2-right-side p {
+    font-size: 3vw;
+  }
+  .rectangle-2 .rectangle-2-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rectangle-2 .rectangle-2-btn button {
+    width: 106px;
+    height: 34px;
+    font-size: 3vw;
+  }
+  .rectangle-3 h1 {
+    font-size: 8vw;
+    margin-bottom: 8%;
+  }
+  .rectangle-3 h3 {
+    font-size: 5vw;
+    font-weight: 500;
+    padding-top: 10%;
+  }
+
+  .rectangle-3 p {
+    font-size: 3vw;
+    padding-top: 2%;
+    padding-bottom: 4%;
+  }
+  img,
+  svg {
+    vertical-align: middle;
+    width: 50%;
+  }
+  .rectangle-4 {
+    padding-bottom: 10%;
+  }
+  .rectangle-4-food-delivery {
+    margin-left: 0%;
+  }
+  .rectangle-4 h1 {
+    margin-top: 0%;
+    margin-bottom: 4%;
+    font-size: 8vw;
+  }
+  .top-item i,
+  p {
+    font-size: 3vw;
+  }
+  .rectangle-4 .hide-desk {
+    margin-bottom: 5%;
+  }
+  element.style {
+    color: #737865;
+    font-size: 18px;
+  }
+  .rectangle-5 h1 {
+    font-size: 8vw;
+  }
+  .rectangle-5-cards p {
+    font-size: 3.5vw;
+  }
+  img,
+  svg {
+    vertical-align: middle;
+    width: 81%;
+  }
+  img,
+  svg {
+    vertical-align: middle;
+    width: 50%;
+  }
+}
+
+/* ***************************************************************************************************************************** */
+/* <!-- CSS start of the pages parts Blogs Parrts --> */
+.rectangle-1-blogs {
+  background-color: #f9f9f7;
+  padding-bottom: 5%;
+}
+.rectangle-1-blogs-parts {
+  padding-top: 2%;
+  padding-bottom: 1.5%;
+}
+.rectangle-1-blogs-parts h1 {
+  font-size: 3.5vw;
+  font-family: "Playfair Display", serif;
+  color: #2c2f24;
+}
+.rectangle-1-blogs-parts p {
+  color: #414536;
+  font-size: 0.9vw;
+  padding-top: 2%;
+}
+.card {
+  padding: 0px 0px 0px 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.inside-card {
+  background-color: #ffffff;
+  padding: 7%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.inside-card p {
+  color: #2c2f24;
+  font-size: 1vw;
+}
+.rectangle-1-blogs img {
+  margin-top: 7%;
+}
+.hover-card {
+  transition: 0.6s;
+}
+.hover-card:hover {
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+.blog-part-strong {
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width: 600px) {
+  .rectangle-1-blogs-parts h1 {
+    font-size: 8vw;
+  }
+  .rectangle-1-blogs-parts p {
+    color: #414536;
+    font-size: 3vw;
+  }
+
+  .inside-card p {
+    color: #2c2f24;
+    font-size: 3vw;
+  }
+
+  .blog-part-strong {
+    font-size: 4.7vw;
+  }
+}
+
+/* start blogs 2nd part */
+
+.blog-part-content {
+  padding: 5% 10% 5% 10%;
+}
+.blog-part-content h1 {
+  font-size: 3.5vw;
+  font-family: "Playfair Display", serif;
+  color: #2c2f24;
+}
+.blog-part-content p {
+  font-size: 1.1vw;
+  padding-top: 3%;
+}
+
+/* media query of blog part */
+@media screen and (max-width: 600px) {
+  .blog-part-content {
+    padding: 5% 0% 5% 0%;
+  }
+  .blog-part-content h1 {
+    font-size: 7.9vw;
+    font-family: "Playfair Display", serif;
+    color: #2c2f24;
+    text-align: justify;
+  }
+  b,
+  strong {
+    font-weight: bolder;
+    font-size: 4.7vw;
+    text-align: justify;
+  }
+  .blog-part-content p {
+    font-size: 3vw;
+    text-align: justify;
+  }
+  .blog-part-content li {
+    font-size: 3vw;
+    text-align: justify;
+  }
+}
+/* ends blogs 2nd parts */
+
+/* <!-- CSS Ends of the pages parts Blogs Parrts --> */
+
+/* *****************************************************************************************************************************************/
+
+/* CSS Start about part */
+.rectangle-2-part-img1 {
+  background-image: url("../image/about/Image\ \(2\).png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+  width: 90%;
+  height: 70vh;
+  position: relative;
+}
+.rectangle-2-part-img1 .rectangle-2-about-part1 {
+  width: 350px;
+  height: 260px;
+  background: #474747;
+  border-radius: 15px;
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+  color: white;
+  text-align: justify;
+  padding: 5% 5% 5% 5%;
+}
+.rectangle-2 .rectangle-2-about-part1 h2 {
+  font-size: 1.5vw;
+}
+.rectangle-2 .rectangle-2-about-part1 p {
+  font-size: 1vw;
+  margin-left: 5%;
+  padding-top: 5%;
+}
+.rectangle-2 .rectangle-2-about-part1 i {
+  padding-top: 6%;
+}
+/* CSS ends about part */
+
+/* start contact part  CSS*/
+.contact-sec {
+  background-color: #f9f9f7;
+  height: 76vh;
+}
+.contact-sec h1 {
+  font-size: 3.9vw;
+  font-family: "Playfair Display", serif;
+  color: #2c2f24;
+  padding-top: 3%;
+}
+.contact-sec p {
+  font-size: 1vw;
+  color: #495460;
+  padding-top: 1%;
+}
+.contact-sec .card-sec {
+}
+.contact-sec .card-sec .card {
+  width: 60% !important;
+  border: none;
+  border-radius: 10px;
+  padding: 5%;
+}
+.contact-sec .card label {
+  color: black;
+  font-weight: 600;
+}
+.contact-sec .card input,
+.contact-sec .card select {
+  height: 8vh;
+  outline: none;
+  border: 1px solid #dbdfd0;
+  border-radius: 30px;
+  padding-left: 10%;
+}
+.contact-sec .card-sec .input-part {
+  display: flex;
+  justify-content: center;
+}
+.contact-sec .card-sec textarea {
+  height: 20vh;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #dbdfd0;
+  padding: 3% 5% 3% 5%;
+}
+.contact-sec .card button {
+  height: 8vh;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  background-color: #ad343e;
+  color: white;
+  font-weight: 500;
+  margin-top: 4%;
+}
+.contact-sec-last-part {
+  background-color: white;
+}
+.contact-sec-last-part-inside {
+  margin-top: 5%;
+  gap: 12.8%;
+}
+.contact-sec-last-part-inside .para strong {
+  font-size: 1.5vw;
+}
+.contact-sec-last-part-inside p {
+  text-align: start;
+  color: #2c2f24;
+  font-size: 1vw;
+}
+
+@media screen and (max-width: 1280px) {
+  .contact-sec {
+    height: 66vh;
+  }
+  .contact-sec-last-part-inside {
+    margin-top: 5%;
+    gap: 12.5%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .contact-sec {
+    height: 78vh;
+  }
+  .contact-sec-last-part-inside {
+    margin-top: 5%;
+    gap: 12.2%;
+  }
+}
+@media screen and (max-width: 912px) {
+  .contact-sec .card-sec .card {
+    width: 100% !important;
+    border-radius: 15px;
+    padding: 5%;
+  }
+  .contact-sec h1 {
+    font-size: 8vw;
+    font-family: "Playfair Display", serif;
+    color: #2c2f24;
+    padding-top: 2%;
+  }
+  .contact-sec p {
+    font-size: 2.5vw;
+    color: #495460;
+    padding-top: 1%;
+  }
+  .contact-sec {
+    height: 45vh;
+  }
+  .contact-sec .card input {
+    height: 5vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-sec .card-sec .card {
+    width: 100% !important;
+  }
+  .contact-sec .card input {
+    height: 6vh;
+  }
+  .contact-sec .card input {
+    font-size: 3.5vw;
+  }
+  .contact-sec .card label {
+    padding-top: 2%;
+  }
+  .contact-sec h1 {
+    font-size: 8vw;
+  }
+
+  .contact-sec p {
+    font-size: 3.1vw;
+  }
+  .contact-sec .card-sec .input-part {
+    display: inline;
+    justify-content: center;
+  }
+
+  .contact-sec-last-part-inside {
+    margin-top: 10%;
+    gap: 6.7%;
+  }
+  b,
+  strong {
+    font-size: 3.5vw;
+  }
+  .contact-sec .card label {
+    margin-top: 3%;
+  }
+
+  /* ends contact part  CSS*/
+
+  .contact-sec-map iframe {
+    margin-top: 130%;
+  }
+  .contact-sec-map-mob iframe {
+    margin-top: 130%;
+  }
+}
+
+.contact-sec-map iframe {
+  height: 100vh;
+}
+
+.contact-sec-map-mob iframe {
+  height: 50vh;
+}
+
+/* start feel-video-sec CSS */
+.feel-video-sec {
+  background-image: url(../image/about/feei-music-vdio-BG.png);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 50vw;
+}
+.feel-video-sec img {
+  width: 70px;
+  cursor: pointer;
+}
+.feel-video-sec h1 {
+  font-size: 3.5vw;
+  font-family: "Playfair Display", serif;
+  margin-top: 5%;
+}
+.video-modal button {
+  background-color: rgba(6, 6, 6, 0.497);
+}
+.video-modal iframe {
+  width: 100%;
+  height: 20vw;
+}
+
+@media screen and (max-width: 600px) {
+  .feel-video-sec {
+    background-image: url(../image/about/feei-music-vdio-BG.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vw;
+  }
+  .video-modal iframe {
+    width: 100%;
+    height: 50vw;
+  }
+}
+/* End feel-video-sec CSS */
+
+.Multi-cuisine-sec .Multi-cuisine-sec-icon-para-part {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5%;
+}
+.Multi-cuisine-sec .Multi-cuisine-sec-icon-para-part .Multi-cuisine-sec-para {
+  padding-top: 7%;
+}
+.Multi-cuisine-sec .Multi-cuisine-sec-icon-para-part img {
+  width: 50px;
+}
+.Multi-cuisine-sec .Multi-cuisine-sec-icon-para-part .Multi-cuisine-sec-para b {
+  font-size: 1.5vw;
+}
+.Multi-cuisine-sec .Multi-cuisine-sec-icon-para-part .Multi-cuisine-sec-para p {
+  font-size: 1vw;
+  color: #414536;
+}
+
+.all-little-info-sec {
+  background-color: #f9f9f7;
+  padding-top: 5%;
+}
+.all-little-info-sec .card-img-part h1 {
+  font-size: 3.5vw;
+  font-family: "Playfair Display", serif;
+  color: #2c2f24;
+}
+.all-little-info-sec .card-content-part {
+  width: 100%;
+}
+.all-little-info-sec .card-img-part {
+  display: flex;
+  gap: 10%;
+}
+
+.all-little-info-sec .card-img-part .card-part {
+  display: flex;
+  gap: 5%;
+}
+.all-little-info-sec .card-img-part .card-part .card {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.all-little-info-sec .card-img-part .all-little-info-sec-img-part img {
+  height: 90vh;
+}
+
+@media screen and (max-width: 1280px) {
+  .all-little-info-sec .card-img-part .card-part .card {
+    height: 22vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .all-little-info-sec .card-img-part h1 {
+    font-size: 8vw;
+    font-family: "Playfair Display", serif;
+    color: #2c2f24;
+  }
+  .Multi-cuisine-sec .Multi-cuisine-sec-icon-para-part .Multi-cuisine-sec-para {
+    padding-top: 0%;
+  }
+  .Multi-cuisine-sec .Multi-cuisine-sec-icon-para-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+  }
+  .Multi-cuisine-sec
+    .Multi-cuisine-sec-icon-para-part
+    .Multi-cuisine-sec-para
+    b {
+    font-size: 5vw;
+  }
+  .Multi-cuisine-sec
+    .Multi-cuisine-sec-icon-para-part
+    .Multi-cuisine-sec-para
+    p {
+    font-size: 3vw;
+    color: #414536;
+  }
+  .Multi-cuisine-sec .Multi-cuisine-sec-icon-para-part img {
+    width: 59px;
+  }
+  .top-item i,
+  p {
+    font-size: 3vw;
+    padding-top: 3%;
+  }
+}
+
+/* start our menu part  */
+.our-menu-sec {
+  padding: 5% 0% 7% 0%;
+}
+.our-menu-sec .our-menu-head h1 {
+  font-size: 3.5vw;
+  font-family: "Playfair Display", serif;
+  color: #2c2f24;
+  text-align: center;
+}
+.our-menu-sec p {
+  font-size: 1vw;
+  text-align: center;
+}
+.our-menu-sec .btn-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+.our-menu-sec .btn-part button {
+  font-size: 1vw;
+  background: transparent;
+  width: 120px;
+  padding: 8% 0% 8% 0%;
+  border: 2px solid rgba(0, 0, 0, 0.149);
+  border-radius: 30px;
+  color: black;
+  margin-top: 10%;
+}
+.our-menu-sec .btn-part button:hover {
+  background-color: #ad343e;
+  color: white;
+}
+.our-menu-sec .card {
+  border-radius: 10px;
+  border: none;
+  transition: 0.6s;
+}
+.our-menu-sec .card:hover{
+  transform: scale(1.06);
+}
+.our-menu-sec .card .card-para {
+  text-align: center;
+  padding: 7% 3% 5% 3%;
+}
+.our-menu-sec .card .card-para h4 {
+  color: #ad343e;
+}
+.our-menu-sec .card .card-para b {
+  font-size: 1.2vw;
+  padding-top: 2%;
+}
+.our-menu-sec .card .card-para p {
+  font-size: 1vw;
+  padding-top: 3%;
+}
+/* Ends our menu part  */
+.menu-order-sec {
+  background-color: #f9f9f7;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.menu-order-sec .inside-content-part {
+  padding-right: 5%;
+}
+.menu-order-sec .LHS-order-sec-part {
+  margin-top: 5%;
+}
+.menu-order-sec .LHS-order-sec-part h1 {
+  font-size: 3.5vw;
+  font-family: "Playfair Display", serif;
+  color: #2c2f24;
+  padding-bottom: 2%;
+}
+.menu-order-sec .RHS-order-icon-sec {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12vh;
+  width: 100%;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  transition: 0.6s;
+}
+.menu-order-sec .RHS-order-icon-sec:hover {
+  transform: scale(1.2);
+}
+.menu-order-sec .RHS-order-icon-sec img {
+  width: 70%;
+}
