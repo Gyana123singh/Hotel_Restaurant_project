@@ -1327,3 +1327,28 @@ i {
 .menu-order-sec .RHS-order-icon-sec img {
   width: 70%;
 }
+  /* for mobile dropdown-menu */
+  .mobile-dropdown {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.navbar-custom {
+    background-color: #ddd;
+}
+.navbar-dark .navbar-toggler {
+    border-color: rgba(0,0,0,.1);
+}
+.navbar-collapse {
+margin-top: 5%;
+}
+.navbar-nav .nav-link {
+    color: white;
+}
+.navbar-nav .nav-link:hover {
+    background-color: #555;
+}

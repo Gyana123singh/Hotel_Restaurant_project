@@ -52,12 +52,14 @@
   <!-- Starting top navbar  -->
   <section class="top-navbar" style="background: #f9f9f7">
     <div class=" container d-flex justify-content-between align-items-center mob-part pb-3">
-      <div class="d-flex justify-content-between align-items-center gap-2">
-        <div class=" nav-img">
-          <img src="./assest/icon/home/Vector.png" alt="">
-        </div>
-        <div class="nav-icon-name">
-          <p class="mb-0">Bistro Bills</p>
+      <div class="hide-mob">
+        <div class="d-flex justify-content-between align-items-center gap-2 ">
+          <div class=" nav-img">
+            <img src="./assest/icon/home/Vector.png" class="image-fluid w-100" alt="">
+          </div>
+          <div class="nav-icon-name">
+            <p class="mb-0">Bistro Bills</p>
+          </div>
         </div>
       </div>
       <div class="hide-mob">
@@ -78,15 +80,53 @@
           <li class="home" style="background-color: #dbdfd0;">Contact</li>
 
         </ul>
-        <!-- <i class="fa-solid fa-list"></i> -->
       </div>
       <div class="nav-btn">
         <a href="./book-a-table.html"> <button>Book A Table</button></a>
       </div>
       <div class="hide-desk dropdown mobile-menu">
-        <i class="bi bi-list" style="color: black;" data-bs-toggle="dropdown"></i>
+     
         <ul class=" list-item  mb-0  dropdown-menu">
           <li>Home</li>
+          <a href="./about.html">
+            <li>About</li>
+          </a>
+          <a href="./menu.html">
+            <li>Menu</li>
+          </a>
+          <a href="./pages.html">
+            <li>Page</li>
+          </a>
+          <a href="./contact.html">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+     <!-- Mobile view  -->
+     <div class="hide-desk dropdown mobile-menu px-3 pb-3">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex justify-content-between align-items-center gap-2">
+          <div class=" nav-img">
+            <img src="./assest/icon/home/Vector.png" class="image-fluid w-100" alt="">
+          </div>
+          <div class="nav-icon-name">
+            <p class="mb-0">Bistro Bills</p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+            style="background-color: brown; color: white;">
+            <i class="bi bi-list" style="color: white;" data-bs-toggle="dropdown"></i>
+          </button>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class=" list-item text-right  mb-0 ">
+          <a href="./index.html">
+            <li>Home</li>
+          </a>
           <a href="./about.html">
             <li>About</li>
           </a>
@@ -176,7 +216,7 @@
   </section>
   <!-- contact section end -->
 
-  
+
 
 
 
